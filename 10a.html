@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10a</title>
+    <style>
+        body{
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        .container{
+            width:340px;
+            background-color: aqua;
+        }
+        .profile-image>img{
+            width: 50px;
+            height: 50px;
+            border-radius: 100%;
+            object-fit: cover;
+        }
+        .profile-image{
+            display:inline-block;
+        }
+        .profile-info{
+            display: inline-block;
+        }
+        .follow{
+            display: inline-block;
+            margin-left: 120px;
+            background-color:burlywood;
+            vertical-align: middle;
+        }
+        .follow-button{
+          background-color:#0095F6;
+          width: 65px;
+          border: none;
+          color: white;
+          padding: 6px 8px;
+          font-weight: bold;
+          border-radius: 3px;
+        }
+        .profile-name,.profile-description,.profile-status{
+            margin:0 0 2px 9px;
+            text-align: left;
+        }
+        .profile-name{
+            font-weight: bold;
+        }
+        .profile-description{
+            color:grey;
+        }
+        .profile-status{
+            font-size: medium;
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="profile-image">
+            <img src="https://www.fresko-magazin.de/wp-content/uploads/2022/10/Abb.-01_Kopf-des-Augustus-mit-Buergerkrone-scaled-e1664982491886.jpg" alt="Hail Ceaser">
+        </div>
+
+        <div class="profile-info">
+            <p class="profile-name">
+                Augustus
+            </p>
+            <p class="profile-description">
+                Emperor
+            </p>
+            <p class="profile-status">
+                Popular
+            </p>   
+            
+        </div>
+
+        <div class="follow">
+            <button class="follow-button">
+                Follow
+            </button>
+        </div>
+    </div>
+</body>
+</html>
