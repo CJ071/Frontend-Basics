@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Exercise</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .grid-container{
+            display: grid;
+            grid-template-columns: 160px 160px 160px;
+            column-gap: 20px;
+        }
+
+        .profile{
+            height: 290px;
+            box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .profile>img{
+            width: 100%;
+            height: 60%;
+            object-fit: cover;
+        }
+
+        .mutual-friend-row{
+            margin: 0;
+            display: grid;
+            grid-template-columns: 25px 1fr;
+            align-items: center;
+            column-gap: 5px;
+            font-size: small;
+        }
+       
+        .mutual-image{
+            width: 25px;
+            height: 25px;
+            object-fit: cover;
+            object-position:top;
+            border-radius: 100%;
+        }
+
+        .add-friend{
+            padding: 7px 7px;
+            color: white;
+            background-color:lightskyblue;
+            border: none;
+            border-radius: 3px;
+           margin-top: 3px; 
+        }  
+        .mutual-friend-row,.profile-name,.add-friend{
+            margin-left: 7px;
+        }
+        .profile-name{
+            font-weight: bold;
+            margin-top: 5px;
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="profile"> 
+            <img src="https://t4.ftcdn.net/jpg/05/71/91/09/360_F_571910915_3Oucw2QIEqkRxB8rp8nCepHD247CZSjT.jpg">
+            <p class="profile-name">
+                Cyrus
+            </p>
+
+            <div class="mutual-friend-row">
+                <img class="mutual-image" src="https://pixlr.com/images/index/ai-image-generator-two.webp">
+                <p class="mutual-para">3 Mutual Friends</p>
+            </div>
+            <button class="add-friend">
+                Add Friend
+            </button>
+        </div>
+
+        <div class="profile"> 
+            <img src="https://www.worldhistory.org/img/r/p/500x600/486.jpg?v=1681770369">
+            <p class="profile-name">
+                Augustus
+            </p>
+
+            <div class="mutual-friend-row">
+                <img class="mutual-image" src="https://pixlr.com/images/index/ai-image-generator-two.webp">
+                <p class="mutual-para">3 Mutual Friends</p>
+            </div>
+            <button class="add-friend">
+                Add Friend
+            </button>
+        </div>
+
+
+        <div class="profile"> 
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuJUWYhDN2_UB0W2bHex0du4tkRwfdIccMSA&s">
+            <p class="profile-name">
+                Alexander
+            </p>
+
+            <div class="mutual-friend-row">
+                <img class="mutual-image" src="https://pixlr.com/images/index/ai-image-generator-two.webp">
+                <p class="mutual-para">3 Mutual Friends</p>
+            </div>
+            <button class="add-friend">
+                Add Friend
+            </button>
+        </div>
+
+       
+    </div>
+</body>
+</html>
