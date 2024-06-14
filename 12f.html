@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>12F</title>
+
+    <style>
+        .container{
+            font-family: Helvetica, sans-serif;
+            width: 100%;
+            height: 45px;
+            background-color: purple;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: bold;
+        }
+
+        input{
+            width: 600px;
+            height: 26px;
+            border-radius: 12px;
+            border: none;
+            padding-left: 15px;
+        }
+
+        .container>div,.container>div>button{
+            color: white;
+        }
+        .container>div>button{
+            padding: 7px 14px;
+            background-color: purple;
+            border: 1px solid whitesmoke;
+            border-radius: 3px;
+            margin-right: 5px;
+        }
+        #home{
+            margin-left: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="home">Home</div>
+        <div><input type="text" placeholder="Search"></div>
+        <div><Button>Download</Button></div>
+    </div>
+</body>
+</html>
