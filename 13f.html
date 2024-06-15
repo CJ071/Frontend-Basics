@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>13F</title>
+
+    <style>
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .container{
+            margin: 20px 10px;
+            display: flex;
+            flex-direction: column;
+            width: 400px;
+        }
+
+        .row-1{
+            display: flex;
+        }
+
+        .row-2{
+            margin-left: 45px;
+            margin-top: 10px;
+            width: 389px;
+            height: 100px;
+            width: 85%;
+        }
+
+        .nested-row-1>p{
+            margin-bottom:5px;
+            margin-top: 0;
+        }
+
+        .nested-row-1{
+            max-width: 370px;
+            margin-left: 10px;
+        }
+
+        .nested-row-2{
+            display: flex;
+            border: 1px solid rgb(104, 104, 104);
+            border-radius:17px;
+        }
+
+        .nested-row-video{
+            margin-top: 20px;
+            margin-left: 10px;
+            width: 240px;
+        }
+
+        .nested-row-video>p{
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        .para3{
+            color: rgb(104, 104, 104);
+        }
+
+        .para4{
+            padding-top: 3px;
+        }
+
+        .para2{
+            font-size: 15.5px;
+        }
+
+        .profile-image{
+            height: 60px;
+            width: 60px;
+            object-fit: cover;
+            object-position: top;
+            border-radius: 100%;
+        }
+
+        #handle{
+            color: rgb(104, 104, 104);
+        }
+
+        #bold{
+            font-weight: bold;
+        }
+
+        .nested-row-block{
+            width: 100px;
+            height: 95px;
+            background-color: gray;
+            border-top-left-radius: 17px;
+            border-bottom-left-radius: 17px;
+            border: none;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="row-1">
+            <img class="profile-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Pope-peter_pprubens.jpg/640px-Pope-peter_pprubens.jpg" alt="Saint Peter">
+            
+            <div class="nested-row-1">
+                <p><span id="bold" class="para1">supersimple.dev </span><span id="handle">@SuperSimpleDev</span></p>
+            <p class="para2">What is backend development? A complete overview. New video is up!</p>
+            </div>
+
+        </div>
+
+        <div class="row-2">
+            <div class="nested-row-2">
+                <div class="nested-row-block">
+                </div>
+
+                <div class="nested-row-video">
+                    <p class="para3">youtube.com</p>
+                    <p class="para4">Backend web development - a complete overview(2021)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container">
+        <div class="row-1">
+            <img class="profile-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Pope-peter_pprubens.jpg/640px-Pope-peter_pprubens.jpg" alt="Saint Peter">
+            
+            <div class="nested-row-1">
+                <p><span id="bold" class="para1">supersimple.dev </span><span id="handle">@SuperSimpleDev</span></p>
+            <p class="para2">What is backend development? A complete overview. New video is up!</p>
+            </div>
+
+        </div>
+
+        <div class="row-2">
+            <div class="nested-row-2">
+                <div class="nested-row-block">
+                </div>
+
+                <div class="nested-row-video">
+                    <p class="para3">youtube.com</p>
+                    <p class="para4">Backend web development - a complete overview(2021)</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
