@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>14F</title>
+
+    <style>
+
+        body{
+            height: 3000px;
+            font-family:Arial, Helvetica, sans-serif
+        }
+
+        .double-sidebar{
+            display: flex;
+            width: 320px;
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            left: 0;
+        }
+        .first,.second{
+           
+        }
+        .first{
+            background-color: rgb(23, 20, 20);
+            width: 20%;
+            display: flex;
+            flex-direction: column;
+       
+        }
+
+        .image{
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+            object-position: top;
+            border-radius:100%;
+            margin-bottom: 7px;
+            margin: 10px auto;
+        }
+        .second{
+            background-color: rgb(34, 34, 34);
+            flex: 1;
+        }
+
+        .title{
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        #info{
+            font-size: 15px;
+        }
+        #info,.paras{
+            padding-left: 20px;
+        }
+        #plus{
+        color: rgb(159, 155, 155);
+        font-size: 25px;
+        padding-right: 20px;
+        }
+
+        .paras{
+            color: rgb(159, 155, 155);
+            margin:0;
+            padding-bottom: 19px;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="double-sidebar">
+        <div class="first">
+            <img class="image" src="https://i.pinimg.com/736x/9a/20/5e/9a205edcf22719daf20155fba05dbd11--persian-people-persian-girls.jpg" alt="">
+            <img class="image" src="https://i.pinimg.com/736x/b8/52/d7/b852d7e8091373f4940b0b3e61509401--greek-beauty-child-of-light.jpg" alt="">
+            <img class="image" src="https://tse3.mm.bing.net/th?id=OIP.cU6ZR6FvGFZS_7tqGPJCJwHaJY&pid=Api&P=0&h=220" alt="">
+        </div>
+        
+        <div class="second">
+            <div class="title">
+                <p id="info">INFO</p>
+                <span id="plus">+</span>
+            </div>
+
+            <p class="paras"># new videos</p>
+            <p class="paras"># updates</p>
+            <p class="paras"># faq</p>
+        </div>
+    </div>
+</body>
+</html>
