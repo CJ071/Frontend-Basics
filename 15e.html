@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>15E</title>
+    <style>
+        .container{
+            margin: 0 auto;
+            width: 300px;
+            position: relative;
+        }
+        .item-image{
+           width: 100%;
+        }
+
+        .discount{
+            position: absolute;
+            top: 8px;
+            right:0;
+            background-color: black;
+            color: white;
+            padding: 5px 7px;
+            font-size: 15.5px;
+        }
+
+        .cart{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            background-color:rgb(255, 255, 255,0.85);
+            width: 100%;
+            height: 100px;
+            bottom: 0;
+        }
+        .cart-button{
+            padding: 7px 15px;
+            border: 1px solid gray;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="discount">20% OFF</div>
+        <img class="item-image" src="https://hips.hearstapps.com/hmg-prod/images/best-leather-jackets-64dce7321e652.jpg?crop=0.500xw:1.00xh;0.500xw,0&resize=640:*" alt="">
+        <div class="cart">
+            <button class="cart-button">Add to Cart</button>
+        </div>
+    </div>
+</body>
+</html>
