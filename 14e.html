@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>14E</title>
+
+    <style>
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            height: 3000px;
+        }
+        .header{
+            display: flex;
+            justify-content: space-between;
+            position: fixed;
+            top: 0;
+            left: 50px;
+            right: 50px;
+        }
+
+        .profile-info{
+            display: flex;
+            align-items: center;
+        }
+        .profile-image{
+            width: 45px;
+            height: 45px;
+            border-radius: 30px;
+            object-fit: cover;
+        }
+
+        .name{
+            padding-left: 10px;
+        }
+
+        .profile-buttons{
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .button1,.button2{
+            border: none;
+            padding: 7px 10px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .button1{
+            color: white;
+            background-color: rgb(19, 152, 234);
+           
+        }
+    </style>
+
+</head>
+<body>
+    <div class="header">
+
+        <div class="profile-info">
+            <img class="profile-image" src="https://i.pinimg.com/originals/08/3d/bb/083dbb727f26cbe3d0845093d621cd34.jpg" alt="">
+            <p class="name">Daria</p>
+        </div>
+
+        <div class="profile-buttons">
+            <button class="button1">Add Friend</button>
+            <button class="button2">Message</button>
+        </div>
+    </div>
+</body>
+</html>
