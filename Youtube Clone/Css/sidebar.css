@@ -1,0 +1,34 @@
+
+.sidebar{
+    position: fixed;
+    top: 57px;
+    left: 0;
+    width: 78px;
+    height:auto;
+    
+}
+
+.side-image{
+    width: 24px;
+}
+
+.side-para{
+    font-size: 10px;
+    margin-top: 3px;
+    white-space: nowrap;
+    padding-top: 3px;
+}
+
+.side-section:hover{
+    background-color: rgb(230, 230, 230);
+}
+
+.side-section{
+    display: flex;
+    background-color:whitesmoke;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    padding-top: 7px;
+}
