@@ -1,4 +1,7 @@
+
 body{
-    height: 3000px;
     font-family: Roboto,Arial;
+    padding-left: 70px;
+    padding-top: 50px;
+    margin: 0;
 }
