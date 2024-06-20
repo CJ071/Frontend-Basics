@@ -5,3 +5,11 @@ body{
     padding-top: 50px;
     margin: 0;
 }
+
+
+/* Styles for viewports smaller than 1200px */
+@media (max-width: 1199.99px) {
+    .videos {
+        margin-left: 168px; /* Adjust to the expanded sidebar width */
+    }
+}
